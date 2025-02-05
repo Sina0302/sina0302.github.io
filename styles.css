@@ -1,76 +1,94 @@
+/* General Styles for All Pages */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #F6F5EC;
+  color: #B29079;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 15px;
-    text-align: center;
+  background-color: #B29079;
+  color: #EFE7DA;
+  padding: 20px;
+  text-align: center;
 }
 
-.section {
-    padding: 20px;
-    margin: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+nav {
+  background-color: #E1DACA;
+  padding: 10px;
 }
 
-h2 {
-    color: #0056b3;
+nav a {
+  color: #C1B6A4;
+  text-decoration: none;
+  margin: 0 15px;
 }
 
-.membership, .courses {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+nav a:hover {
+  color: #B29079;
 }
 
-.offer, .course {
-    background-color: #e2e2e2;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 8px;
-    width: 250px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.offer h3, .course h3 {
-    color: #333;
+main {
+  padding: 20px;
+  background-color: #EFE7DA;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  background-color: #B29079;
+  color: #EFE7DA;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-.schedule-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+h1, h2, h3 {
+  color: #C1B6A4;
 }
 
-.schedule-table th, .schedule-table td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
+button {
+  background-color: #B29079;
+  color: #F6F5EC;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.schedule-table th {
-    background-color: #333;
-    color: white;
+button:hover {
+  background-color: #C1B6A4;
 }
 
-.highlight {
-    background-color: #f9f9f9;
+/* Additional Page Specific Styles */
+.services, .contact, .about {
+  padding: 20px;
+  background-color: #EFE7DA;
+}
+
+.services h2, .contact h2, .about h2 {
+  color: #C1B6A4;
+}
+
+.services ul, .contact form {
+  color: #B29079;
+}
+
+.services ul li {
+  list-style-type: square;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #C1B6A4;
+}
+
+.contact button {
+  width: auto;
+  background-color: #B29079;
+  color: #F6F5EC;
+  padding: 10px;
+  cursor: pointer;
 }
