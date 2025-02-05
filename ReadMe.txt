@@ -9,7 +9,7 @@ Alle Seiten sollen untereinander erreichbar sein = Menü
  -> für die beworbenen Angebote und Kurse, verlinkt von der Startseite (mehrere auf einen Blick & Preise)
 - Unser Team
  -> Leitung und Trainer:innen
-- Berratungsgespräch
+- Beratungsgespräch
  -> auf der sich evtl. auch direkt ein Termin vereinbaren lässt (Formular muss/kann nicht funktionieren!), verlinkt von der Kurs-Übersicht
 - Über uns
  -> Team-Seite der Inhaberin, verlinkt von der Startseite
@@ -33,6 +33,8 @@ Alle Seiten sollen untereinander erreichbar sein = Menü
 
 _________________________________________________________________________________________________________________________________________________________________________________________--
 
+https://sina0302.github.io/
+
 Sina0302
 MauriceSina25
 sina.foerderer02@gmx.de
@@ -48,7 +50,7 @@ NovaFit Club
 Kontakt:
 Telefon: [0176 8334979]  
 E-Mail: [Novafitclubhd@gmx.de]  
-Website: [Webseiten-URL]
+Website: [https://sina0302.github.io/]
 
 ---
 Einleitung 
