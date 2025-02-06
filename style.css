@@ -1,4 +1,4 @@
-/* General Styles for All Pages */
+/* Normal Styling */
 body {
   font-family: Arial, sans-serif;
   background-color: #F6F5EC;
@@ -12,6 +12,20 @@ header {
   color: #EFE7DA;
   padding: 20px;
   text-align: center;
+}
+
+header a h1 {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a {
+	color: #B29079;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #E1DACA;
 }
 
 nav {
@@ -29,11 +43,6 @@ nav a:hover {
   color: #B29079;
 }
 
-main {
-  padding: 20px;
-  background-color: #EFE7DA;
-}
-
 footer {
   background-color: #B29079;
   color: #EFE7DA;
@@ -42,6 +51,11 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 h1, h2, h3 {
@@ -60,7 +74,7 @@ button:hover {
   background-color: #C1B6A4;
 }
 
-/* Additional Page Specific Styles */
+/* Extended Styling */
 .services, .contact, .about {
   padding: 20px;
   background-color: #EFE7DA;
@@ -91,4 +105,11 @@ button:hover {
   color: #F6F5EC;
   padding: 10px;
   cursor: pointer;
+}
+
+.wrapper {
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }

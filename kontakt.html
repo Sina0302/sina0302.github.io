@@ -8,37 +8,39 @@
 </head>
 <body>
     <header>
-        <a href="./index">NovaFit Club</a>
+        <a href="/"><h1><strong>NovaFit Club</strong></h1></a>
         <nav>
-            <a href="./angebote_und_kurse">Angebote und Kurse</a>
-            <a href="./unser_team">Unser Team</a>
+            <a href="./mitgliedschaft">Mitgliedschaft</a>
+            <a href="./kurse">Kurse</a>
             <a href="./beratungsgespraech">Beratungsgespräch</a>
 			<a href="./ueber_uns">Über uns</a>
 			<a href="./oeffnungszeiten">Öffnungszeiten</a>
 			<a href="./kontakt">Kontakt</a>
         </nav>
     </header>
-
-	<h1>Kontaktformular - NovaFit Club</h1>
+	
+	<div class="wrapper">
+		<h1>Kontaktformular - NovaFit Club</h1>
 
         <form action="" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required placeholder=" Name">
+			<label for="name">Vor- und Nachname:</label>
+			<input type="text" id="name" name="name" required placeholder="Max Mustermann">
 
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" required placeholder="E-Mail-">
+			<label for="email">E-Mail:</label>
+			<input type="email" id="email" name="email" required placeholder="max.mustermann@gmail.com">
 
-            <label for="phone">Telefonnummer:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Telefonnummer">
+			<label for="phone">Telefonnummer:</label>
+			<input type="tel" id="phone" name="phone" placeholder="0123 456 789">
 
             <label for="message">Anliegen:</label>
             <textarea id="message" name="message" rows="4" required placeholder="Nachricht"></textarea>
 
             <button type="submit">Senden</button>
        </form>
+	</div>   
 	
     <footer>
-        <p>&copy; 2025 NovaFit Club | <a href="#impressum">Impressum</a> | <a href="#datenschutz">Datenschutz</a></p>
+        <p>&copy; 2025 NovaFit Club | <a href="./impressum">Impressum</a> | <a href="./datenschutz">Datenschutz</a></p>
     </footer>
 </body>
 </html>

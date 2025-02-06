@@ -8,50 +8,50 @@
 </head>
 <body>
     <header>
-        <a href="./index">NovaFit Club</a>
+        <a href="/"><h1><strong>NovaFit Club</strong></h1></a>
         <nav>
-            <a href="./angebote_und_kurse">Angebote und Kurse</a>
-            <a href="./unser_team">Unser Team</a>
+            <a href="./mitgliedschaft">Mitgliedschaft</a>
+            <a href="./kurse">Kurse</a>
             <a href="./beratungsgespraech">Beratungsgespräch</a>
 			<a href="./ueber_uns">Über uns</a>
 			<a href="./oeffnungszeiten">Öffnungszeiten</a>
 			<a href="./kontakt">Kontakt</a>
         </nav>
     </header>
+	
+	<div class="wrapper">
+		<h1>Beratungsgespräch - NovaFit Club</h1>
 
-	<h1>Beratungsgespräch - NovaFit Club</h1>
+		<form action="" method="POST">
+			<label for="name">Vor- und Nachname:</label>
+			<input type="text" id="name" name="name" required placeholder="Max Mustermann">
 
-    <form action="submit_beratung.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder="Dein Name">
+			<label for="email">E-Mail:</label>
+			<input type="email" id="email" name="email" required placeholder="max.mustermann@gmail.com">
 
-        <label for="email">E-Mail:</label>
-        <input type="email" id="email" name="email" required placeholder="Deine E-Mail-Adresse">
+			<label for="phone">Telefonnummer:</label>
+			<input type="tel" id="phone" name="phone" placeholder="0123 456 789">
 
-        <label for="phone">Telefonnummer:</label>
-        <input type="tel" id="phone" name="phone" placeholder="Deine Telefonnummer">
+			<label for="beratungsthema">Beratungsthema:</label>
+			<select id="beratungsthema" name="beratungsthema" required>
+				<option value="">Wähle ein Thema</option>
+				<option value="Mitgliedschaft">Mitgliedschaft</option>
+				<option value="Kurse">Kurse</option>
+				<option value="Sonstiges">Sonstiges</option>
+			</select>
 
-        <label for="beratungsthema">Beratungsthema:</label>
-        <select id="beratungsthema" name="beratungsthema" required>
-            <option value="">Wähle ein Thema</option>
-            <option value="Training">Training</option>
-            <option value="Ernährung">Ernährung</option>
-            <option value="Gesundheit">Gesundheit</option>
-            <option value="Mitgliedschaft">Mitgliedschaft</option>
-            <option value="Sonstiges">Sonstiges</option>
-        </select>
+			<label for="zeit">Bevorzugte Uhrzeit für das Gespräch:</label>
+			<input type="datetime-local" id="zeit" name="zeit" required>
 
-        <label for="zeit">Bevorzugte Uhrzeit für das Gespräch:</label>
-        <input type="datetime-local" id="zeit" name="zeit" required>
+			<label for="message">Zusätzliche Nachricht:</label>
+			<textarea id="message" name="message" rows="4" placeholder="Hier kannst du noch Details angeben"></textarea>
 
-        <label for="message">Zusätzliche Nachricht:</label>
-        <textarea id="message" name="message" rows="4" placeholder="Hier kannst du noch Details angeben"></textarea>
-
-        <button type="submit">Anfrage Absenden</button>
-    </form>	
+			<button type="submit">Anfrage Senden</button>
+		</form>	
+	</div>
 	
     <footer>
-        <p>&copy; 2025 NovaFit Club | <a href="#impressum">Impressum</a> | <a href="#datenschutz">Datenschutz</a></p>
+        <p>&copy; 2025 NovaFit Club | <a href="./impressum">Impressum</a> | <a href="./datenschutz">Datenschutz</a></p>
     </footer>
 </body>
 </html>
