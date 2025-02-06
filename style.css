@@ -12,25 +12,23 @@ header {
   color: #EFE7DA;
   padding: 20px;
   text-align: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
 }
 
 header a h1 {
 	color: #FFFFFF;
 	text-decoration: none;
-}
-
-a {
-	color: #B29079;
-	text-decoration: none;
-}
-
-a:hover {
-  color: #E1DACA;
+	font-weight: bold;
 }
 
 nav {
   background-color: #E1DACA;
   padding: 10px;
+  position: fixed; 
+  left: 0; 
+  right: 0;
 }
 
 nav a {
@@ -62,11 +60,33 @@ h1, h2, h3 {
   color: #C1B6A4;
 }
 
+a {
+	color: #B29079;
+	text-decoration: none;
+}
+
+a:hover {
+  color: #E1DACA;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #E1DACA;
+    color: #C1B6A4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
 button {
   background-color: #B29079;
   color: #F6F5EC;
   border: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
   cursor: pointer;
 }
 
@@ -74,42 +94,98 @@ button:hover {
   background-color: #C1B6A4;
 }
 
+
 /* Extended Styling */
-.services, .contact, .about {
-  padding: 20px;
-  background-color: #EFE7DA;
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+	padding: 150px;
 }
 
-.services h2, .contact h2, .about h2 {
-  color: #C1B6A4;
-}
 
-.services ul, .contact form {
+/* Forms */
+
+.wrapper-form h1 {
+  text-align: center;
   color: #B29079;
 }
 
-.services ul li {
-  list-style-type: square;
+.wrapper-form label {
+  display: block;
+  font-weight: bold;
+  color: #B29079;
+  margin-top: 10px;
 }
 
-.contact input, .contact textarea {
+.wrapper-form input,
+.wrapper-form textarea,
+.wrapper-form select {
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #C1B6A4;
+  margin-top: 5px;
+  border: 1.5px solid #C1B6A4;
+  border-radius: 6px;
+  background-color: #F6F5EC;
+  color: #B29079;
 }
 
-.contact button {
-  width: auto;
-  background-color: #B29079;
-  color: #F6F5EC;
-  padding: 10px;
-  cursor: pointer;
+.wrapper-form textarea {
+  height: 120px;
 }
 
-.wrapper {
-    margin-top: 30px;
-    margin-right: 50px;
-    margin-bottom: 100px;
-    margin-left: 50px;
+.wrapper-form button {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 15px;
 }
+
+.wrapper-form button:hover {
+  background-color: #C1B6A4;
+}
+
+
+/* Courses */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.course {
+    background: #E1DACA;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.course h3 {
+    margin-bottom: 10px;
+}
+
+/* Course Table*/
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: #B29079;
+    color: white;
+}
+
+.schedule-table .highlight {
+    background-color: #E1DACA;
+}
+

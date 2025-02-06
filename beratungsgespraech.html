@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href="/"><h1><strong>NovaFit Club</strong></h1></a>
+        <a href="/"><h1>NovaFit Club</h1></a>
         <nav>
             <a href="./mitgliedschaft">Mitgliedschaft</a>
             <a href="./kurse">Kurse</a>
@@ -19,29 +19,29 @@
         </nav>
     </header>
 	
-	<div class="wrapper">
+	<div class="wrapper wrapper-form">
 		<h1>Beratungsgespräch - NovaFit Club</h1>
 
 		<form action="" method="POST">
-			<label for="name">Vor- und Nachname:</label>
+			<label for="name">Vor- und Nachname*:</label>
 			<input type="text" id="name" name="name" required placeholder="Max Mustermann">
 
-			<label for="email">E-Mail:</label>
+			<label for="email">E-Mail*:</label>
 			<input type="email" id="email" name="email" required placeholder="max.mustermann@gmail.com">
 
 			<label for="phone">Telefonnummer:</label>
 			<input type="tel" id="phone" name="phone" placeholder="0123 456 789">
 
-			<label for="beratungsthema">Beratungsthema:</label>
-			<select id="beratungsthema" name="beratungsthema" required>
+			<label for="topic">Beratungsthema*:</label>
+			<select id="topic" name="topic" required>
 				<option value="">Wähle ein Thema</option>
 				<option value="Mitgliedschaft">Mitgliedschaft</option>
 				<option value="Kurse">Kurse</option>
 				<option value="Sonstiges">Sonstiges</option>
 			</select>
 
-			<label for="zeit">Bevorzugte Uhrzeit für das Gespräch:</label>
-			<input type="datetime-local" id="zeit" name="zeit" required>
+			<label for="time">Bevorzugte Uhrzeit für das Gespräch*:</label>
+			<input type="datetime-local" id="time" name="time" required>
 
 			<label for="message">Zusätzliche Nachricht:</label>
 			<textarea id="message" name="message" rows="4" placeholder="Hier kannst du noch Details angeben"></textarea>
