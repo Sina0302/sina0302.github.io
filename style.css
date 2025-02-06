@@ -95,6 +95,11 @@ button:hover {
   background-color: #C1B6A4;
 }
 
+img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
 
 /* Extended Styling */
 
@@ -112,6 +117,9 @@ button:hover {
     }
 }
 
+.style-image {
+	border-radius: 10px;
+}
 
 /* Forms */
 
@@ -176,6 +184,7 @@ button:hover {
     margin-bottom: 10px;
 }
 
+
 /* Course Table*/
 .schedule-table {
     width: 100%;
@@ -207,9 +216,6 @@ button:hover {
 }
 
 .header-image img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
 	filter: blur(5px);
 }
 
